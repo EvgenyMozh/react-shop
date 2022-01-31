@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { ShopContext } from "../context";
 import { BasketItem } from "./BasketItem";
 
-function BasketList(props) {
+function BasketList() {
   const {
     order = [],
     handleBasketShow = Function.prototype
